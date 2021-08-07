@@ -1,0 +1,28 @@
+
+.pulse {
+  animation:pulse 2s ease-in infinite;
+}
+
+.wd {
+  animation:wd 5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes wd {
+  0%,
+  100% {
+    width: 70%;
+  }
+  50% {
+    width:100%;
+  }
+}

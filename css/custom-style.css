@@ -1,0 +1,35 @@
+:root {
+  --bg-black: #000;
+  --bg-gradient: linear-gradient(to right, #0081a7, #00bfff);
+  --bg-primary: #a8dadc;
+  --bg-darkturquoise: #00ced1;
+  --bg-dblue: #00bfff;
+  --bg-blue: #0000ff;
+  --bg-primary: #cbf3f0;
+  --bg-grey: #839788;
+}
+.text-black {
+  color: #000;
+}
+.text-primary {
+  color: var(--bg-primary);
+}
+.bg-gradient {
+  background-image: linear-gradient(to right, #0081a7, #00bfff);
+}
+.bg-primary {
+  background: var(--bg-primary);
+}
+
+.bg-dark {
+  background: var(--bg-black);
+}
+
+.bg-grey {
+  background: var(--bg-grey);
+}
+
+.bg-secondary {
+  background: var(--bg-darkturquoise);
+}
+

@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gowun Dodum", sans-serif;
+  background: var(--bg-primary);
+}
+.first_card {
+  height: 400px;
+  width: 400px;
+  border-radius: 0.5rem;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  transform: rotate(-8deg);
+  background:#000;
+}
+.first_child {
+  height: 390px;
+  width: 390px;
+  border-radius: 0.5rem;
+  transform: rotate(8deg);
+  border: solid 0.01rem #00bfff;
+}
+
+.first_child {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 0.5rem;
+}
+.box-1 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  border-radius: 50%;
+  top: 32%;
+  margin: 0.5rem;
+}
+
+.box-2 {
+  height: 200px;
+  display: grid;
+  grid-template-rows: 1fr * 5;
+  grid-gap: 0.5rem;
+  position: relative;
+  top: 25%;
+  margin-right: 5%;
+}
+
+.box-2Child {
+  height: 70%;
+  border-radius: 0.5rem;
+  transition: opacity 1s;
+}
+
+.two {
+  width: 80%;
+  position: relative;
+  right: -20%;
+}
+
+.four {
+  width: 80%;
+}
+
+.five {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.five div {
+  height: 20px;
+  width: 50px;
+  border-radius: 5rem;
+  margin: 0.1rem;
+}
+
+.right_card {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  border-radius: 28px;
+  background: linear-gradient(145deg, #b7dbd8, #d9ffff);
+  box-shadow: 35px 35px 70px #adcfcc, -35px -35px 70px #e9ffff;
+}
+
+#darkMode-btn {
+  width: 50px;
+  height: 20px;
+  background: var(--bg-darkturquoise);
+  position: relative;
+  padding:0.1rem;
+  left: 5%;
+  margin-top: 1%;
+  border-radius: 5rem;
+}
+#toggle {
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  background: #fff;
+  transition:0.5s;
+  cursor: pointer;
+}
+.dark-mode{
+  background: #000 !important;
+  position: absolute;
+  margin-left:55%;
+  transition:0.5s;	
+}

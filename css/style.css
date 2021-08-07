@@ -6,12 +6,14 @@
   align-items: center;
   margin: 0 auto;
 }
+
 body {
   padding: 0;
   margin: 0;
   font-family: "Gowun Dodum", sans-serif;
   background: var(--bg-primary);
 }
+
 .first_card {
   height: 400px;
   width: 400px;
@@ -22,6 +24,7 @@ body {
   transform: rotate(-8deg);
   background:#000;
 }
+
 .first_child {
   height: 390px;
   width: 390px;
@@ -35,6 +38,7 @@ body {
   grid-template-columns: 1fr 3fr;
   grid-gap: 0.5rem;
 }
+
 .box-1 {
   height: 100px;
   width: 100px;
@@ -74,6 +78,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
 }
+
 .five div {
   height: 20px;
   width: 50px;
@@ -102,6 +107,7 @@ body {
   margin-top: 1%;
   border-radius: 5rem;
 }
+
 #toggle {
   width: 20px;
   height: 20px;
@@ -110,6 +116,7 @@ body {
   transition:0.5s;
   cursor: pointer;
 }
+
 .dark-mode{
   background: #000 !important;
   position: absolute;

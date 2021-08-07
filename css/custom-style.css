@@ -11,12 +11,15 @@
 .text-black {
   color: #000;
 }
+
 .text-primary {
   color: var(--bg-primary);
 }
+
 .bg-gradient {
   background-image: linear-gradient(to right, #0081a7, #00bfff);
 }
+
 .bg-primary {
   background: var(--bg-primary);
 }

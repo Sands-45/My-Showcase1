@@ -1,0 +1,52 @@
+.second_card {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  right: 10%;
+  top: -18%;
+  right: 0%;
+  border-radius: 28px;
+  background: linear-gradient(145deg, #023047, #d9ffff);
+  box-shadow: 35px 35px 70px #adcfcc, -35px -35px 70px #e9ffff;
+  transform: rotate(-8deg);
+}
+
+.right_Profile_Card {
+  height: 400px;
+  width: 300px;
+  border-radius: 0.5rem;
+  position: relative;
+  left: 25%;
+  top: 17%;
+  transform: rotate(8deg);
+  display: grid;
+  grid-template-rows: 35% auto;
+}
+
+.topProfileCard {
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.bottomProfileCard {
+  display: grid;
+  grid-template-rows: 20% 30% 40%;
+}
+
+.user {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+}
+.user img {
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -100%;
+}
+
+.socials span {
+  margin: 10%;
+  font-size: 2rem;
+}

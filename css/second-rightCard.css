@@ -2,13 +2,11 @@
   height: 600px;
   width: 600px;
   position: relative;
-  right: 10%;
-  top: -18%;
-  right: 0%;
-  border-radius: 28px;
-  background: linear-gradient(145deg, #023047, #d9ffff);
-  box-shadow: 35px 35px 70px #adcfcc, -35px -35px 70px #e9ffff;
+  top: -10%;
+  border-radius: 0.5rem;
+  background: linear-gradient(145deg, #00bfff, #d9ffff);
   transform: rotate(-8deg);
+  border-left:solid .2rem  var(--bg-main); 
 }
 
 .right_Profile_Card {

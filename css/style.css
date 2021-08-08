@@ -18,6 +18,17 @@ body {
   background: var(--bg-primary);
 }
 
+body::before{
+  content: '';
+  background: var(--bg-main);
+  width: 110%;
+  height: 50%;
+  transform: rotate(-5deg);
+  position: absolute;
+  top:-10%;
+  left:-5%;
+}
+
 #darkMode-btn {
   width: 50px;
   height: 20px;
@@ -50,4 +61,19 @@ body {
   grid-template-columns: 50% 50%;
   position: relative;
   padding: 12%;
+}
+
+.about{
+  position: absolute;
+  bottom:-10%;
+  width: 40%;
+  padding-left: 5%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--bg-primary);
+}
+.about p{
+  background:var(--bg-main);
+  padding:1rem;
+  border-radius: 0.5rem;
 }

@@ -4,9 +4,10 @@
   position: relative;
   top: -10%;
   border-radius: 0.5rem;
-  background: linear-gradient(145deg, #00bfff, #d9ffff);
+  background: var(--bg-main);
   transform: rotate(-8deg);
-  border-left:solid .2rem  var(--bg-main); 
+  border-left:solid .2rem  var(--bg-primary);
+  border-top:solid .2rem  var(--bg-primary);
 }
 
 .right_Profile_Card {

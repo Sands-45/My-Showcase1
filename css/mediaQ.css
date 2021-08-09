@@ -1,0 +1,35 @@
+@media screen and (max-width: 939px) {
+  .top-section {
+    display: flex !important;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20% !important;
+  }
+  /* ==== Right Card ==== */
+  .second_card {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 15%;
+}
+.right_Profile_Card {
+  height: 250px;
+  width: 200px;
+  left: 20%;
+  top: 8%;
+}
+.user img {
+  top: -80%;
+}
+.socials span {
+  font-size: 1.1rem;
+}
+h2{
+	font-size: medium;
+}
+  /* ====== Left Card ======= */
+  /* ====== About ====== */
+  .about-section {
+  margin-top:-5% !important;
+}
+}

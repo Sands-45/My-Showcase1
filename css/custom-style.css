@@ -27,6 +27,10 @@
   background: var(--bg-black);
 }
 
+.bg-main {
+  background: var(--bg-main);
+}
+
 .bg-grey {
   background: var(--bg-grey);
 }

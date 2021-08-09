@@ -3,6 +3,7 @@
 @import "animations.css";
 @import "left-firstCard.css";
 @import "second-rightCard.css";
+@import "mediaQ.css";
 
 .center {
   display: flex;
@@ -16,17 +17,17 @@ body {
   margin: 0;
   font-family: "Gowun Dodum", sans-serif;
   background: var(--bg-primary);
+  overflow-x: hidden;
 }
 
-body::before{
-  content: '';
-  background: var(--bg-main);
-  width: 110%;
-  height: 50%;
-  transform: rotate(-5deg);
+body::before {
+  content: "";
+  width: 0; 
+  height: 0; 
+  border-bottom: 300px solid transparent;
+  border-top: 150px solid var(--bg-main);
+  border-left:2000px solid var(--bg-main); 
   position: absolute;
-  top:-10%;
-  left:-5%;
 }
 
 #darkMode-btn {
@@ -56,24 +57,24 @@ body::before{
   transition: 0.5s;
 }
 
-.main-content {
+.top-section {
   display: grid;
   grid-template-columns: 50% 50%;
   position: relative;
   padding: 12%;
 }
 
-.about{
-  position: absolute;
-  bottom:-15%;
-  width: 40%;
-  padding-left: 5%;
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--bg-primary);
+.about-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap:2rem;
+  padding-left:5%;
+  padding-right:5%;
+  margin-top:-10%;
 }
-.about p{
-  background:var(--bg-main);
-  padding:1rem;
+.about p {
+  color: var(--bg-primary);
+  padding: 1rem;
   border-radius: 0.5rem;
+  font-family: monospace;
 }

@@ -26,7 +26,7 @@ body::before {
   height: 0; 
   border-bottom: 300px solid transparent;
   border-top: 150px solid var(--bg-main);
-  border-left:2000px solid var(--bg-main); 
+  border-left:110vw solid var(--bg-main); 
   position: absolute;
 }
 

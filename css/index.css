@@ -16,7 +16,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Gowun Dodum", sans-serif;
-  background-image: url('./images/background.png');
+  background-image: url("./background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   overflow-x: hidden;
 }
 
